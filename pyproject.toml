@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gildo"
+version = "0.0.1"
+description = "Federated discovery and recommendation for decentralized social networks"
+authors = ["Dario Castañé <d@rio.hn>"]
+license = "AGPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+atproto = "^0.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

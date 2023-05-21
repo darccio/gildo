@@ -14,3 +14,9 @@ Instances allow people to gather around, share links in a personal landing page,
 - User sends a discovery search for new profiles to follow in different social networks/protocols, with a desired recommendation algorithm.
 - User sets up their handle in Bluesky as a subdomain of the instance.
 - User sends a Webfinger request to resolve an ActivityPub account resource to a link.
+
+## AT Protocol lexicon schema
+
+Gildo defines an AT Protocol lexicon as basis of it's federation mechanism as it's a customizable decentralized protocol.
+
+Find the most up to date definition in `lexicon.json`.

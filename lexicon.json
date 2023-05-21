@@ -1,0 +1,35 @@
+{
+  "lexicon": 1,
+  "id": "dev.coopanio.gildo.actor.profile",
+  "defs": {
+    "main": {
+      "type": "record",
+      "record": {
+        "type": "object", 
+        "properties": {
+          "did": {
+            "type": "string",
+            "format": "did"
+          },
+          "handle": {
+            "type": "string",
+            "format": "handle"
+          },
+          "displayName": {
+            "type": "string"
+          },
+          "avatar": {
+            "type": "blob"
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "ref",
+              "ref": "com.atproto.label.defs#label"
+            }
+          }
+        }
+      }
+    }
+  }
+}
